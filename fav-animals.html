@@ -1,0 +1,113 @@
+<html>
+  <!-- pratice, animal enclyclopedia
+  links like wiki, pictures, list , buttons, audio, video -->
+
+  <head></head>
+
+
+  <body>
+    <h1>My favorite animals!</h1>
+
+    <div>
+      <h2>Orcas</h2>
+      <img src="images/oca.jpg" alt="Orca Picture">
+      <p>paragraph</p>
+      <a href="https://en.wikipedia.org/wiki/Killer_whale" target="blank">See more on Orcas</a>
+
+    <div>
+       <h2>Cougar</h2>
+       <img src="images/cougar.jpg" alt="Cougar Picture">
+       <p>Paragraph</p>
+       <a href="https://en.wikipedia.org/wiki/Cougar" target="blank">See more on Cougars</a>
+    </div>
+
+    <div>
+      <h2>Octopus</h2>
+      <img src="images/octopus-1.jpg" alt="Octopus Picture">
+      <p>Paragraph</p>
+      <a href="https://en.wikipedia.org/wiki/Octopus" target="blank">See more on Octopus</a>
+    </div>
+
+    <div>
+      <h2>Komodo Dragon</h2>
+      <img src="images/komodo.jpg" alt="Komodo Picture">
+      <p>Paragraph</p>
+      <a href="https://en.wikipedia.org/wiki/Komodo_dragon" target="blank">See more on Komodo Dragon</a>
+    </div>
+
+    <div>
+      <h2>Mammoth</h2>
+      <img src="images/mammoth.jpg" alt="Mammoth Picture">
+      <p>Paragraph</p>
+      <a href="https://en.wikipedia.org/wiki/Mammoth" target="blank">See more on Mammoths</a>
+    </div>
+
+    <h1>Questionnaire</h1>
+
+    <div>
+      <h2>What is your fave Animal</h2>
+
+      <form action="/submit-fav-animal">
+        <input type="text" placeholder="what is it!!!" required>
+        <button type="submit">Submit</button> <!-- if the input to be required just add required in input  -->
+      </form>
+    </div> <!--  doesn't actually do anything yet-->
+
+    <!--  radio buttons are for when user want to select 1 out of many options, lets do it-->
+
+    <h1>Which is not a mammmal?</h1>
+
+    <label for="cat">
+      <input type="radio" id="cat" name="quest">Cat
+    </label>
+    <label for="dog">
+      <input type="radio" id="dog" name="quest">Dog
+    </label>
+    <label for="eagle">
+      <input type="radio" id="eagle" name="quest">Eagle
+    </label>
+    <label for="horse">
+      <input type="radio" id="horse" name="quest">Horse
+    </label>
+
+    <!-- checkboxes for more than 1 option -->
+
+    <h1>What would you feed a wolf, pick up to 3</h1>
+
+    <label for="one">Rabbit
+      <input type="checkbox" id="one" name="food">
+    </label>
+     <label for="two">Moose
+      <input type="checkbox" id="two" name="food">
+    </label>
+     <label for="three">Dear
+      <input type="checkbox" id="three" name="food">
+    </label>
+     <label for="four">Beaver
+      <input type="checkbox" id="four" name="food">
+    </label>
+
+<!-- Dont forget that input should also ahve values if not the the default is on which is useless name:value
+
+Can also check one by deafult by saying checked-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
+
